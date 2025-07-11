@@ -29,6 +29,8 @@ Edit the "About" section of the repository to include a link to your hosted web 
 When Finished
 
 When you finish, you should have a working, unique version of a penguin dashboard that you can work with locally on your machine and have published for free on the web. It should have several inputs including a drop down to select a column for display that works and a checkbox group for species that is used to reactively filter the species shown on the charts. It should use a reactive calc to filter the dataframe and use the filtered dataframe for your tables, grids, and charts. 
+
+https://airfirm.github.io/cintel-04-local/
 """
 ### Change the Browser Tab Title
 """
