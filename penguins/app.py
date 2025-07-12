@@ -10,9 +10,9 @@ from shiny import reactive
 
 penguins_df = palmerpenguins.load_penguins()
 
-# ui.page_opts(fillable=True)
+ui.page_opts(fillable=True)
 
-ui.page_opts(title="Penguin Data Shiny App Interactive Dashboard - Femi", fillable=True)
+# ui.page_opts(title="Penguin Data Shiny App Interactive Dashboard - Femi", fillable=True)
 
 # Sidebar
 with ui.sidebar(open="open"):
@@ -113,5 +113,5 @@ with ui.card(full_screen=True):
                 "bill_length_mm": "Bill Length (mm)",
                 input.selected_attribute(): input.selected_attribute().replace('_', ' ').title()
         },
-            size_max=8
+            size_max=10
     )
