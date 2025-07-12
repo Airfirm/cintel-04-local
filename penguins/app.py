@@ -10,6 +10,8 @@ from shiny import reactive
 
 penguins_df = palmerpenguins.load_penguins()
 
+# ui.page_opts(fillable=True)
+
 ui.page_opts(title="Penguin Data Shiny App Interactive Dashboard - Femi", fillable=True)
 
 # Sidebar
