@@ -12,7 +12,7 @@ penguins_df = palmerpenguins.load_penguins()
 
 # ui.page_opts(fillable=True)
 
-ui.page_opts(title="Penguin Data Shiny App Interactive Dashboard - Femi", fillable=True)
+ui.page_opts(title="Penguin Exploratory Data Analysis - Femi", fillable=True)
 
 # Sidebar
 with ui.sidebar(open="open"):
